@@ -4,7 +4,15 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			Rectangle rectangle = new Rectangle(false, "red", 1, 2);
+
+			Shape[] shapes =
+			{
+				rectangle,
+				new Square(true, "Blue", 1, 1),
+				new Circle("black", 5)
+			};
+			
 		}
 	}
 }
